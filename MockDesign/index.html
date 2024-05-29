@@ -44,59 +44,68 @@
     <h6 class="fw-bold pb-2">Transformation</h6>
       <div class="row">
         <div class="col-sm-2 d-flex flex-column">
-          <label class="pb-2" for="transform-column">Transform Column
+          <form>
+            <label class="pb-2" for="transform-column">Transform Column
+              <div class="tooltip-container">
+                <span class="tooltip-text">?</span>
+                <div class="tooltip-message">Choose the column you want to change</div>
+              </div>
+            </label>
+              <select id="transform-column" class="form-control">
+                <option value="sex">Sex</option>  
+              </select>
+          </form>
+        </div>
+      <div class="col-sm-2 d-flex flex-column">
+        <form>
+          <label class="pb-2" for="prebuilt-transform-strategy">Prebuilt Transform Strategy
+          <div class="tooltip-container">
+            <span class="tooltip-text">?</span>
+            <div class="tooltip-message">Choose the column you want to change</div>
+          </div>
+          </label>
+            <select id="prebuilt-transform-strategy" class="form-control">
+              <option value="atomic-action">Atomic Action</option>
+            </select>
+        </form> 
+      </div>
+      <div class="col-sm-2 d-flex flex-column">
+        <form>
+          <label class="pb-2" for="change-action">Change Action
             <div class="tooltip-container">
               <span class="tooltip-text">?</span>
               <div class="tooltip-message">Choose the column you want to change</div>
             </div>
+            </label>
           </label>
-            <select id="transform-column" class="form-control">
-              <option value="sex">Sex</option>  
+          <select id="change-action" class="form-control">
+            <option value="replace-exact">Replace Exact</option>
             </select>
-        </div>
+        </form>
+      </div>
       <div class="col-sm-2 d-flex flex-column">
-        <label class="pb-2" for="prebuilt-transform-strategy">Prebuilt Transform Strategy
-          <div class="tooltip-container">
-            <span class="tooltip-text">?</span>
-            <div class="tooltip-message">Choose the column you want to change</div>
-          </div>
+        <form>
+          <label class="pb-2" for="value">Value
+            <div class="tooltip-container">
+              <span class="tooltip-text">?</span>
+              <div class="tooltip-message">Choose the column you want to change</div>
+            </div>
               </label>
               </label>
-            <select id="prebuilt-transform-strategy" class="form-control">
-              <option value="atomic-action">Atomic Action</option>
-            </select>   
+          <input type="text" id="value" class="form-control">
+        </form>
       </div>
       <div class="col-sm-2 d-flex flex-column">
-        <label class="pb-2" for="change-action">Change Action
-          <div class="tooltip-container">
-            <span class="tooltip-text">?</span>
-            <div class="tooltip-message">Choose the column you want to change</div>
-          </div>
-          </label>
-        </label>
-        <select id="change-action" class="form-control">
-          <option value="replace-exact">Replace Exact</option>
-          </select>
-      </div>
-      <div class="col-sm-2 d-flex flex-column">
-        <label class="pb-2" for="value">Value
-          <div class="tooltip-container">
-            <span class="tooltip-text">?</span>
-            <div class="tooltip-message">Choose the column you want to change</div>
-          </div>
-            </label>
-            </label>
-        <input type="text" id="value" class="form-control">
-      </div>
-      <div class="col-sm-2 d-flex flex-column">
-        <label class="pb-2" for="Replacement">Replacement
-          <div class="tooltip-container">
-            <span class="tooltip-text">?</span>
-            <div class="tooltip-message">Choose the column you want to change</div>
-          </div>
-            </label>
-            </label>
-        <input type="text" id="Replacement" class="form-control">
+        <form>
+          <label class="pb-2" for="Replacement">Replacement
+            <div class="tooltip-container">
+              <span class="tooltip-text">?</span>
+              <div class="tooltip-message">Choose the column you want to change</div>
+            </div>
+              </label>
+              </label>
+          <input type="text" id="Replacement" class="form-control">
+        </form>
       </div>
       <div class="row">
         <div class="d-flex mt-3">
@@ -106,7 +115,7 @@
                   <i class="fab fa-react px-1"></i> 
                     Replace
                 </button>
-        </div>
+            </div>
         <div class="container">
           <button class="btn btn-next"><i class="fab fa-react px-1"></i>
           Next
