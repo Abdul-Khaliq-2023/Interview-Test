@@ -70,7 +70,6 @@ border-radius: 10px;
   border-radius: 8px;
 }
 
-
 .table-container{
   border: 1px solid #ccc;
   background-color: #ffffff; 
@@ -94,8 +93,8 @@ background:rgb(245, 245, 245);
 }
 
 .tooltip-inner {
-white-space: nowrap;
-max-width: none;
+  white-space: nowrap;
+  max-width: none;
 }
 
 .custom-table th,
@@ -121,28 +120,28 @@ background:#f8d9d9;
 }
 
 .chart-card {
-border: 1px solid #e3e6f0;
-border-radius: 5px;
-padding: 10px;
-margin: 10px 0;
-background-color: white;
+  border: 1px solid #e3e6f0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: white;
 }
 
 .chart-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .chart-bar {
-height: 8px;
-border-radius: 4px;
+  height: 8px;
+  border-radius: 4px;
 }
 
 .chart-bar-container {
-background-color: #e0e0e0;
-height:4px;
-border-radius: 8px;
+  background-color: #e0e0e0;
+  height:4px;
+  border-radius: 8px;
 }
 
 .chart-bar-yellow{
@@ -153,20 +152,20 @@ border-radius: 8px;
 
 .chart-bar-red {
   width: 14.9%;
-background-color: #f8766a;
-height: 100%;
+  background-color: #f8766a;
+  height: 100%;
 
 }
 .dustbincontainer{
-width: 15px;
-height: 20px;
-border-radius: 50%;
-background-color: #ffffff;
-display: flex;
-justify-content: center;
-align-items: center;
-overflow: hidden; 
-margin-left: 15px;
+  width: 15px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  margin-left: 15px;
 
 }
 .tooltip-inner {
@@ -193,36 +192,36 @@ height: 110px;
 background: rgb(243, 243, 243);
 }
 .input-group .input-group-prepend .input-group-text {
-height: 90%;
-border-top-right-radius: 0;
-border-bottom-right-radius: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: rgb(255, 255, 255);
-border-right: none;
+  height: 90%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-right: none;
 }
 
 .input-group .form-control {
-border-top-left-radius: 0;
-border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .Chart-styling{
-margin-top: 16px;
-margin-bottom: -6px;
-font-size: 10px;
+  margin-top: 16px;
+  margin-bottom: -6px;
+  font-size: 10px;
 }
 
 .btn-replace {
-font-size: 14px;
-background-color: #007bff;
-color: white;
-display: flex;
-align-items: center;
-border: none;
-padding: 5px 15px;
-border-radius: 5px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
 }
 
 .btn-replace:hover{
@@ -234,14 +233,14 @@ margin-right: 5px;
 }
 
 .btn-next{
-font-size: 13px;
-background-color: white;
-border-color:#007bff ;
-color: #007bff;
-justify-content: center;
-align-items: center;
-padding: 5px 15px;
-border-radius: 5px;
+  font-size: 13px;
+  background-color: white;
+  border-color:#007bff ;
+  color: #007bff;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 5px;
 }
 
 .btn-next:hover{
@@ -249,13 +248,13 @@ border-color: #007bff;
 }
 
 .btn-chart {
-font-size: 14px;  
-background-color: #007bff;
-color: white;
-align-items: center;
-border: none;
-padding: 5px 15px;
-border-radius: 5px;
+  font-size: 14px;  
+  background-color: #007bff;
+  color: white;
+  align-items: center;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
 }
 
 .btn-chart:hover{
@@ -263,75 +262,76 @@ background-color: #007bff;
 }
 
 .dustbinicon {
-width: 100%;
-height: 100%;
-object-fit: cover;
-border-radius: 50%;
-color: red;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  color: red;
 }
 
 .chart-card {
-border: 1px solid #e3e6f0;
-border-radius: 0.5rem;
-margin-bottom: 1rem;
-padding: 1rem;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
+
 .chart-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .dustbincontainer {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .chart-container {
-display: flex;
-align-items: flex-end;
-height: 130px; 
+  display: flex;
+  align-items: flex-end;
+  height: 130px; 
 }
 .chart-container .y-axis {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-height: 90%;
-margin-right: 10px;
-margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  margin-right: 10px;
+  margin-bottom: 22px;
 }
 .chart-container .y-axis span {
 text-align: right;
 }
 .chart-bar {
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-height: 100%;
-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
 }
 .chart-bar .bar-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
 .chart-bar .bar-background {
-display: flex;
-align-items: flex-end;
-justify-content: center;
-height: calc(100% - 20px); 
-width: 20px;
-background-color: #f0f0f0;
-border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: calc(100% - 20px); 
+  width: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px 5px 0 0;
 }
 .chart-bar .bar {
-width: 20px;
-background-color: #007bff;
-border-radius: 5px 5px 0 0;
+  width: 20px;
+  background-color: #007bff;
+  border-radius: 5px 5px 0 0;
 }
 .chart-bar .label {
-margin-top: 5px;
-text-align: center;
-height: 20px; 
+  margin-top: 5px;
+  text-align: center;
+  height: 20px; 
 }
 
 .tooltip-container {
@@ -384,4 +384,23 @@ height: 20px;
 .tooltip-container:hover .tooltip-message {
   visibility: visible;
   opacity: 1;
+}
+
+@media screen and (max-width: 1435px) and (min-width: 540px) {
+  .col-sm-2 {
+    flex-basis: 50%; 
+    max-width: 50%; 
+  }
+  .chart-card {
+    padding: 10px;
+  }
+  .chart-header {
+    font-size: 14px;
+  }
+  .Chart-styling {
+    font-size: 12px; 
+  }
+  .chart-bar-container {
+    width: 80%;
+  }
 }
